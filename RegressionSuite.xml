@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener
+			class-name="com.parasoft.paraproject.ExtentReportManager" />
+	</listeners>
+
+	<test name=" Regression Tests">
+
+		<classes>
+			<class name="com.parasoft.paraproject.BillPay" />
+			<class name="com.parasoft.paraproject.LoginPage" />
+			<class name="com.parasoft.paraproject.OpenAccount" />
+			<class name="com.parasoft.paraproject.RequestLoan" />
+			<class name="com.parasoft.paraproject.AccountOverview" />
+			<class name="com.parasoft.paraproject.AccountServices" />
+			<class name="com.parasoft.paraproject.UpdateContactInfo" />
+			<class name="com.parasoft.paraproject.TransferFunds" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->
